@@ -27,6 +27,5 @@ Much like the auto-save and rolling-backup systems in games like Space Engineers
 
 # Benefits:
 - Protects against file corruption from bad invades, system crashes, or mod misbehavior.
-- Prevents save scumming penalties by storing independent zip files.
-- ANSI color output for clean, live terminal feedback.
-- Lightweight and portable, just run it alongside your game.
+- Prevents save scumming penalties by storing independent zip files (_undesirable outcomes_).
+- Just run it alongside your game, Control+C when done playing.
