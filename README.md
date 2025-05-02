@@ -36,11 +36,11 @@ Much like the auto-save and rolling-backup systems in games like Space Engineers
 Consider changing your background to black for readbility:
 - Right-click the Title Bar
     At the top of the PowerShell window, right-click the blue title bar (where it says Windows PowerShell).
-  
-  ![image](https://github.com/user-attachments/assets/be382f89-6983-4eba-ad47-5f3c3537d6ce)
-
 - Click "Properties"
     From the context menu that appears, select Properties.
+
+   ![image](https://github.com/user-attachments/assets/be382f89-6983-4eba-ad47-5f3c3537d6ce)
+  
 - Navigate to the "Colors" Tab
     In the Properties dialog box, click the "Colors" tab.
 - Select “Screen Background”
@@ -48,4 +48,7 @@ Consider changing your background to black for readbility:
     You'll see a palette of colors or the option to set a custom RGB value.
 - Pick a Color
     Click a preset color or define a custom one using the Red, Green, Blue (RGB) fields below the color grid.
+
+  ![image](https://github.com/user-attachments/assets/faa7d746-1e4a-48de-b6ab-6366053913ff)
+
 - Click “OK”
