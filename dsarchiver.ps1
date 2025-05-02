@@ -1,12 +1,13 @@
 
-
+# Change [USER] to user profile name
+# Change [SaveID] to game Save ID (numeric)
 function DSArchiver
 {
     Clear-Host
     
     # locals
-    $SourceDir = "C:\Users\Daddy\Documents\NBGI\DARK SOULS REMASTERED\11720689"
-    $BackupDir = "C:\Users\Daddy\Documents\NBGI\DARK SOULS REMASTERED\Backup"
+    $SourceDir = "C:\Users\[USER]\Documents\NBGI\DARK SOULS REMASTERED\[SaveID]"
+    $BackupDir = "C:\Users\[USER]\Documents\NBGI\DARK SOULS REMASTERED\Backup"
     $MaxBackups = 5 # 5 backups
     $IntervalSeconds = 600  # 10 minutes between backups
 
