@@ -59,10 +59,6 @@ function DSArchiver
             $backups | Select-Object -Skip $MaxBackups | ForEach-Object {
                 Remove-Item $_.FullName -Force
             }
-        }
-
-        # let user know file was backed up
-        Write-Host "`nBackup completed: $zipName`n"
-        Start-Sleep -Seconds 4
+        }        
     }
 }
