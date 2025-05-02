@@ -35,7 +35,9 @@ Much like the auto-save and rolling-backup systems in games like Space Engineers
 # Note:
 Consider changing your background to black for readbility:
 - Right-click the Title Bar
--- At the top of the PowerShell window, right-click the blue title bar (where it says Windows PowerShell).
+    At the top of the PowerShell window, right-click the blue title bar (where it says Windows PowerShell).
+  ![image](https://github.com/user-attachments/assets/be382f89-6983-4eba-ad47-5f3c3537d6ce)
+
 - Click "Properties"
     From the context menu that appears, select Properties.
 - Navigate to the "Colors" Tab
