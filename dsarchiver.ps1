@@ -1,19 +1,6 @@
 
 # Change [USER] to user profile name
 # Change [SaveID] to game Save ID (numeric)
-function Test-PathInUse {
-    param($Path)
-    try {
-        # Grabs a random file in the directory, ensures its not in use by ds
-        $tempFile = [System.IO.Path]::Combine($Path, [System.IO.Path]::GetRandomFileName())
-        $stream = [System.IO.File]::Create($tempFile)
-        $stream.Close()
-        Remove-Item $tempFile -Force
-        return $false
-    } catch {
-        return $true
-    }
-}
 
 function DSArchiver
 {
@@ -74,5 +61,19 @@ function DSArchiver
                 Remove-Item $_.FullName -Force
             }
         }        
+    }
+}
+
+function Test-PathInUse {
+    param($Path)
+    try {
+        # Grabs a random file in the directory, ensures its not in use by ds
+        $tempFile = [System.IO.Path]::Combine($Path, [System.IO.Path]::GetRandomFileName())
+        $stream = [System.IO.File]::Create($tempFile)
+        $stream.Close()
+        Remove-Item $tempFile -Force
+        return $false
+    } catch {
+        return $true
     }
 }
