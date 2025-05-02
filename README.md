@@ -1,6 +1,8 @@
 # DSArchiver
 The PowerShell function DSArchiver automatically backs up Dark Souls Remastered save files at timed intervals, helping to prevent progress loss and recover from corrupted saves caused by crashes, power outages, or PvP invasions that result in corrupted files.
 
+![image](https://github.com/user-attachments/assets/58b40e47-3510-443a-bffa-676dbef5ddc8)
+
 #  Why Use It?
 Much like the auto-save and rolling-backup systems in games like Space Engineers or Valheim, this tool ensures you always have a recent backup of your game progress. If an invader or game error corrupts your save, you can easily restore a previous version from the backup folder.
 
