@@ -31,3 +31,18 @@ Much like the auto-save and rolling-backup systems in games like Space Engineers
 - Protects against file corruption from bad invades, system crashes, or mod misbehavior.
 - Prevents save scumming penalties by storing independent zip files (_undesirable outcomes_).
 - Just run it alongside your game, Control+C when done playing.
+
+# Note:
+Consider changing your background to black for readbility:
+- Right-click the Title Bar
+    At the top of the PowerShell window, right-click the blue title bar (where it says Windows PowerShell).
+- Click "Properties"
+    From the context menu that appears, select Properties.
+- Navigate to the "Colors" Tab
+    In the Properties dialog box, click the "Colors" tab.
+- Select “Screen Background”
+    Under “Selected Screen Colors”, choose Screen Background.
+    You'll see a palette of colors or the option to set a custom RGB value.
+- Pick a Color
+    Click a preset color or define a custom one using the Red, Green, Blue (RGB) fields below the color grid.
+- Click “OK”
